@@ -34,6 +34,7 @@ mkdir "Backend"
 cd Backend
 C:\Windows\System32\curl.exe -L https://raw.githubusercontent.com/RomsiVmax/ProgramAssets/main/File%%20Sorter/Backend%%20File%%20Sorter.py --output "Backend File Sorter.py"
 C:\Windows\System32\curl.exe -L https://raw.githubusercontent.com/RomsiVmax/ProgramAssets/main/File%%20Sorter/File%%20Sorter.bat --output "File Sorter.bat"
+C:\Windows\System32\curl.exe -L https://raw.githubusercontent.com/RomsiVmax/ProgramAssets/main/File%%20Sorter/FileSorterGUIandDirectoryCreation.py --output "FileSorterGUIandDirectoryCreation.py"
 cd %USERPROFILE%
 cd OneDrive
 cd Desktop
