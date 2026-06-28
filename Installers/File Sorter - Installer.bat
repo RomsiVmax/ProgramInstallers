@@ -36,7 +36,7 @@ C:\Windows\System32\curl.exe -L https://raw.githubusercontent.com/RomsiVmax/Prog
 cd %USERPROFILE%
 cd OneDrive
 cd Desktop
-C:\Windows\System32\curl.exe -L "https://raw.githubusercontent.com/RomsiVmax/ProgramAssets/main/File%%20Sorter/File%%20Sorter%%20AiO.lnk" --output "File Sorter AiO.lnk"
+C:\Windows\System32\curl.exe -L https://raw.githubusercontent.com/RomsiVmax/ProgramAssets/main/File%%20Sorter/File%%20Sorter%%20AiO.lnk --output "File Sorter AiO.lnk"
 C:/Windows/System32/timeout.exe /t 2 >nul
 cls
 echo Installation complete! Press any key to exit the installer
