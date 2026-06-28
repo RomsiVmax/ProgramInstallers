@@ -32,13 +32,11 @@ mkdir "File Sorter"
 cd File Sorter
 mkdir "Backend"
 cd Backend
-C:\Windows\System32\curl.exe -L https://raw.githubusercontent.com/RomsiVmax/ProgramAssets/main/File%%20Sorter/Backend%%20File%%20Sorter.py --output "Backend File Sorter.py"
-C:\Windows\System32\curl.exe -L https://raw.githubusercontent.com/RomsiVmax/ProgramAssets/main/File%%20Sorter/File%%20Sorter.bat --output "File Sorter.bat"
-C:\Windows\System32\curl.exe -L https://raw.githubusercontent.com/RomsiVmax/ProgramAssets/main/File%%20Sorter/FileSorterGUIandDirectoryCreation.exe --output "FileSorterGUIandDirectoryCreation.exe"
+C:\Windows\System32\curl.exe -L https://raw.githubusercontent.com/RomsiVmax/ProgramAssets/main/File%%20Sorter/AiO/FileSorterAiO.exe --output "FileSorterAiO.exe"
 cd %USERPROFILE%
 cd OneDrive
 cd Desktop
-C:\Windows\System32\curl.exe -L "https://raw.githubusercontent.com/RomsiVmax/ProgramAssets/main/File%%20Sorter/File%%20Sorter.lnk" --output "File Sorter.lnk"
+C:\Windows\System32\curl.exe -L "https://raw.githubusercontent.com/RomsiVmax/ProgramAssets/main/File%%20Sorter/File%%20Sorter%%20AiO.lnk" --output "File Sorter AiO.lnk"
 C:/Windows/System32/timeout.exe /t 2 >nul
 cls
 echo Installation complete! Press any key to exit the installer
