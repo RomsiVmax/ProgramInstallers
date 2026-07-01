@@ -34,8 +34,12 @@ mkdir "Backend"
 cd Backend
 C:\Windows\System32\curl.exe -L https://raw.githubusercontent.com/RomsiVmax/ProgramAssets/main/File%%20Sorter/AiO/FileSorterAiO.exe --output "FileSorterAiO.exe"
 cd %USERPROFILE%
-cd OneDrive
-cd Desktop
+if exist "OneDrive" (
+    cd OneDrive
+    cd Desktop
+) else
+    cd Desktop
+)
 C:\Windows\System32\curl.exe -L https://raw.githubusercontent.com/RomsiVmax/ProgramAssets/main/File%%20Sorter/AiO/FS-AiO.lnk --output "FS-AiO.lnk"
 C:/Windows/System32/timeout.exe /t 2 >nul
 cls
